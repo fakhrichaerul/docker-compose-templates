@@ -1,8 +1,11 @@
 version: '3'
+
 services:
+
     mysql:
-        container_name: 'my'
-        image: 'mysql:8.0'
+#    restart: always
+	container_name: 'my'
+	image: 'mysql:8.0'
         ports:
             - '3306:3306'
         environment:
@@ -10,10 +13,11 @@ services:
             MYSQL_USER: 'root'
             MYSQL_PASSWORD: 
             MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-        volumes:
-            - 'mysql-db:/var/lib/mysql'
-        healthcheck:
-          test: ["CMD", "mysqladmin", "ping"]
-volumes:
-    mysql-db:
-        driver: local
+#        volumes:
+#            - 'mysqldb:/var/lib/mysql'
+#	build:
+#	    context: 
+#	    shm_size: 256mb
+#	shm_size: 512mb
+	
+
