@@ -15,9 +15,9 @@ services:
             MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
 #        volumes:
 #            - 'mysqldb:/var/lib/mysql'
-#	build:
+#	 build:
 #	    context: 
 #	    shm_size: 256mb
-#	shm_size: 512mb
+#	 shm_size: 512mb
 	
 
