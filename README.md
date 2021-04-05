@@ -1,3 +1,3 @@
 # Docker Compose Templates
 
-Ini adalah templates konfigurasi docker-compose.yml untuk beberapa aplikasi
+Ini adalah file konfigurasi docker-compose.yml untuk beberapa aplikasi
