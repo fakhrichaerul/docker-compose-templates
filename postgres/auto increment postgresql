@@ -1,0 +1,1 @@
+nextval('kelas_id_seq'::regclass)
